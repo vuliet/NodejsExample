@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container, .container-home, .container-products, .container-detail, .container-search {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-home h3, .container-products h3 {
+  font-size: 20px;
+}
+
+.container-home a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #999;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-home a:hover {
+  padding: 5px 10px;
+  text-decoration: none;
+  background: #000fff;
+}
+
+.product-price span {
+  color:red;
+}
+
+.warpper-productitem {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-goto-detail {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #000fff;
+  color: #fff;
+  border: 1px solid #000fff;
+  border-radius: 10px;
+  margin: 10px auto 5px auto;
+  width: 100px;
+}
+
+.btn-goto-detail:hover {
+  background: #999;
+  border-color: #999;
+}
+
+.container-detail {
+  padding: 10px;
+}
+
+.ipSearchProduct {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+form#frmSearchProduct{
+  display: inline-block;
+}
+
+.btnBack-productlist{
+  margin-left: 10px;
+}
+
+.btnSearchProduct {
+  padding: 5px;
+}
+
+.btn-upd {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-upd:hover {
+  background: #fff;
+  color: #000;
+}
